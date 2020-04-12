@@ -1,0 +1,68 @@
+{
+    "Records": [
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "Root",
+                "principalId": "446423964285",
+                "arn": "arn:aws:iam::446423964285:root",
+                "accountId": "446423964285",
+                "accessKeyId": "ASIAWP4HRDJ6Y5HMNMFJ",
+                "sessionContext": {
+                    "sessionIssuer": {},
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2020-04-10T18:00:35Z"
+                    }
+                }
+            },
+            "eventTime": "2020-04-10T18:01:40Z",
+            "eventSource": "cloudtrail.amazonaws.com",
+            "eventName": "LookupEvents",
+            "awsRegion": "us-west-2",
+            "sourceIPAddress": "174.74.97.53",
+            "userAgent": "console.amazonaws.com",
+            "requestParameters": {
+                "eventCategory": "insight",
+                "maxResults": 50
+            },
+            "responseElements": null,
+            "requestID": "18dc1159-bf40-4498-b75e-670701550919",
+            "eventID": "b22b31a9-d01d-4ed2-ad9b-4251297cb7df",
+            "readOnly": true,
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "446423964285"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "Root",
+                "principalId": "446423964285",
+                "arn": "arn:aws:iam::446423964285:root",
+                "accountId": "446423964285",
+                "accessKeyId": "ASIAWP4HRDJ6Y5HMNMFJ",
+                "sessionContext": {
+                    "sessionIssuer": {},
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2020-04-10T18:00:35Z"
+                    }
+                }
+            },
+            "eventTime": "2020-04-10T18:01:52Z",
+            "eventSource": "sns.amazonaws.com",
+            "eventName": "ListTopics",
+            "awsRegion": "us-west-2",
+            "sourceIPAddress": "174.74.97.53",
+            "userAgent": "AWSCloudTrail, aws-internal/3 aws-sdk-java/1.11.753 Linux/4.9.184-0.1.ac.235.83.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.242-b08 java/1.8.0_242 vendor/Oracle_Corporation",
+            "requestParameters": null,
+            "responseElements": null,
+            "requestID": "69e8cf53-5d44-5c5d-851a-9859eb94fc65",
+            "eventID": "3e697635-d819-419f-b56b-83e1d249f658",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "446423964285"
+        }
+    ]
+}
